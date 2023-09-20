@@ -1,6 +1,7 @@
 <?php
 
 function printEvenNumbers($start, $end, $step) {
+
     for ($i = $start; $i <= $end; $i += $step) {
         if ($i % 2 == 0) {
             echo $i . " ";
